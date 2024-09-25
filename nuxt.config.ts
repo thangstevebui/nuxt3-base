@@ -14,6 +14,9 @@ export default defineNuxtConfig({
     "dayjs-nuxt",
     "@dargmuesli/nuxt-cookie-control",
   ],
+  pinia: {
+    storesDirs: ["./stores/**"],
+  },
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -60,4 +63,3 @@ export default defineNuxtConfig({
     },
   },
 });
-
